@@ -13,6 +13,7 @@ def saveCustomerRecord():
 	customerRecord.append('A')
 	customersRecords.append(customerRecord)
 	saveCustomersRecords()
+	
 def showAllActiveCustomersRecords():
 	for customerRecord in customersRecords:
 		if customerRecord[3] == 'A':
